@@ -6,9 +6,7 @@ class Solution:
         max = 0
 
         while left < right:
-            # print(left, right)
             area = min(height[left], height[right]) * (right-left)
-            # print(height[left], height[right], area)
 
             if height[right] < height[left]:
                 right -= 1
